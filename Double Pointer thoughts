@@ -2,3 +2,7 @@ Double Pointer
 Easy:
   interview 10.01: easy to figure out time O(n+m) space O(n+m)
                    reverse pointer => A's value won't be modified before being taken. => time O(n+m) space O(1)
+  interview 02.02: easy to figure out that one traverse is needed
+                   => pre cur pointers => when pre is at the end, cur is the answer => pre is k-1 in front of cur
+                   => time O(n+k) space O(1)
+  i
