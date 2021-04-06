@@ -1,4 +1,12 @@
 String
 
 Easy:
-  344:
+  344: easy to figure out double pointer => time O(n) space O(1)
+  541: easy to figure out double pointer, pay attention to the border. => time O(n) space O(1)
+  Offer 05 : traverse => time O(n) space O(n)
+  
+ 
+ Medium:
+  151: method1 => trim spaces O(n) -> reverse the whole string -> reverse words
+               => time O(n) space O(1)
+       method2 => trim spaces -> stack
