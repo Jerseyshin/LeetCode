@@ -4,7 +4,8 @@ Easy:
   344: easy to figure out double pointer => time O(n) space O(1)
   541: easy to figure out double pointer, pay attention to the border. => time O(n) space O(1)
   Offer 05 : traverse => time O(n) space O(n)
-  
+  Offer 58-2 : substr(pos, len) => time O(n) space O(n)
+               reverse(0, n-1), reverse(n, end), reverse all => time O(n) space O(1)
  
  Medium:
   151: method1 => trim spaces O(n) -> reverse the whole string -> reverse words
