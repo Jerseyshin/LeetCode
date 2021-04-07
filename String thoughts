@@ -13,6 +13,10 @@ Easy:
                reverse(0, n-1), reverse(n, end), reverse all => time O(n) space O(1)
  
  Medium:
+  91: dp => dp[i]: the number of different mapping which ends with s[i] -> dp[i] = [ dp[i-2] , if s[i] = 0 and s[i-1]=1/2;
+                                                                                   [ dp[i-1] + dp[i-2] , if s[i-1] = 1 or s[i-1] = 2 and s[i] = 1-6;
+                                                                                   [ dp[i-1], if s[i-1] = 0/3-9 or s[i-1] = 2 and s[i] = 7-9
+         => time O(n) space O(1)
   151: method1 => trim spaces O(n) -> reverse the whole string -> reverse words
                => time O(n) space O(1)
        method2 => trim spaces -> stack
