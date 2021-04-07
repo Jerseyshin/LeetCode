@@ -1,7 +1,12 @@
 String
 
 Easy:
+  28: KMP => next[i] : prefix = suffix (end with s[i])
   344: easy to figure out double pointer => time O(n) space O(1)
+  459: method1 => divide with no remainder => traverse 1 - n/2
+               => time O(n2) space O(n)
+       method2 => if s is periodic <-> s|s contains s which s starts in (0, n) *** proof
+               => time O(n) space O(n)
   541: easy to figure out double pointer, pay attention to the border. => time O(n) space O(1)
   Offer 05 : traverse => time O(n) space O(n)
   Offer 58-2 : substr(pos, len) => time O(n) space O(n)
