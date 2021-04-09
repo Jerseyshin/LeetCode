@@ -1,0 +1,5 @@
+Hash:
+  Easy:
+    242: Bucket => time O(n) space O(n)
+    349: Double set => time O(m+n) space O(m+n)
+    
